@@ -27,30 +27,7 @@ System Monitoring: pynput, pywin32
 Data Handling: Pillow (for images), cryptography (for encryption)
 Concurrency: threading (to ensure a non-blocking GUI)
 
-Setup & Usage
-To get this project running on your local machine, follow these steps.
 
-1. Prerequisites
-Ensure you have Python 3 installed on your system.
-
-2. Clone the Repository
-Bash
-git clone https://github.com/YourUsername/Cybersecurity-Research-Tool.git
-cd Cybersecurity-Research-Tool
-
-4. Install Dependencies
-Install all the required libraries using pip.
-Bash
-pip install pynput pillow pywin32 cryptography
-
-5. Generate Encryption Key
-Run the key generation script one time to create your unique secret key.
-Bash
-python generate_key.py
-
-6. Launch the Application
-You are now ready to run the main application.
-python gui_app.py
 
 Ethical Disclaimer
 This tool was developed strictly for educational and security research purposes. The goal is to better understand how certain classes of malware operate in order to build better defenses. It should not be used for any unauthorized or malicious activities. The author is not responsible for any misuse of this software.
